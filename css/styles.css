@@ -168,7 +168,7 @@ body {
 
 
 .contact-us>.tell-mail:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 .icon-smartphone,
@@ -178,6 +178,7 @@ body {
 
 .contact {
   display: flex;
+  align-items: center;
 }
 
 .contact:hover,
@@ -335,13 +336,10 @@ body {
   margin-bottom: 30px;
 }
 
-.skills-picture .skills-icon {
-  /* width: 70px;
-  height: 70px; */
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
+.skills-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -406,6 +404,8 @@ body {
 
 
 
+/* SOCIAL LINKS */
+
 .social-links {
   display: inline-flex;
 }
@@ -417,7 +417,9 @@ body {
 .list-link {
   width: 44px;
   height: 44px;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   fill: var(--main-icon-color);
 }
 
@@ -453,6 +455,10 @@ body {
   border: 1px solid var(--main-icon-color);
   border-radius: 4px;
   fill: var(--main-icon-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link-client:hover,
@@ -460,11 +466,6 @@ body {
   fill: var(--accent-color);
 }
 
-.clients-icon {
-  width: 106px;
-  height: 60px;
-  margin: 16px 32px;
-}
 
 
 
@@ -515,7 +516,7 @@ body {
   color: var(--main-white-color);
 }
 
-.foter-links {
+.footer-links {
   fill: var(--main-white-color);
   background: rgba(255, 255, 255, 0.1);
   border-radius: 25px;
